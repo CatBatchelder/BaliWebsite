@@ -30,6 +30,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/girl_circle.png": {
+		"ft": 32768,
+		"iS": 143108,
+		"oA": 0,
+		"oAP": "/deploy/img/girl_circle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/hotel.jpg": {
 		"ft": 16384,
 		"iS": 92094,
@@ -299,8 +310,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
-		"oF": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
