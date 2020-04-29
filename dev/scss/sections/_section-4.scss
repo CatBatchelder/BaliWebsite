@@ -6,6 +6,11 @@
     display: grid;
     grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-4 .";
+    text-align: center;
+
+    @include md{
+        grid-template-columns: 10% auto 10%;
+    }
 
     #section-4-content{
         grid-area: section-4;

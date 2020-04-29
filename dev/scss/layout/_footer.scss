@@ -9,5 +9,18 @@ footer{
 
     #footer-content{
         grid-area: footer;
+        text-align: end;;
+
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 15%;
+
+            @include md{
+                width: 5%
+            }
+          }
     }
 }

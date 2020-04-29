@@ -7,7 +7,24 @@
     grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-6 .";
 
+    @include md{
+        grid-template-columns: 15% auto 15%;
+    }
+
 #section-6-content{
     grid-area: section-6;
+    text-align: justify;;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+
+    @include md{
+        width: 50%;
+    }
+  }
+
 }
