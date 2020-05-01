@@ -4,10 +4,17 @@
 
 #section-5{
 
+    grid-area: section-5;
+
     ul{
         grid-area: section-5;
         display: grid;
         gap:20px;
+
+        @include lg{
+            grid-template-columns: 15px auto 15px;
+            grid-template-areas: ". section-5 ,";
+        }
 
         @include md{
             grid-template-columns: 50% 50%;
@@ -26,19 +33,39 @@
         #g1{
             @include md{
                 grid-area: g1;
+
+                img{
+                    width: 97.5%;
+                }
             }
         }
 
         #g2{
             @include md{
                 grid-area: g2;
+
+                img{
+                    width: 95%;
+                }
             }
         }
 
         #g3{
             @include md{
                 grid-area: g3;
+
+                img{
+                    width: 95%;
+                }
             }
         }
+    }
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    @include md{
+        grid-template-columns: auto 768px auto;
     }
 }

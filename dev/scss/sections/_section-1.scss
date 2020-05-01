@@ -4,21 +4,22 @@
 
 #section-1{
     img{
-       background-image: url('..img/section-1/hero2.jpg');
-       background-size: cover;
-       background-position: center;
-       height: 360px;
-
-       @include md{
-           height: 450px;
-       }
-
-       @include lg{
-        height: 650px;
+        width: 100%;
     }
+    //    background-image: url('.img/pink.jpg');
+    //    background-size: cover;
+    //    background-position: center;
+    //    height: 371px;
 
-    @include xl{
-        height: 850px;
-    }
-    }
+    //    @include md{
+    //        height: 471px;
+    //    }
+
+    //    @include lg{
+    //     height: 671px;
+    // }
+
+    // @include xl{
+    //     height: 871px;
+    // }
 }
