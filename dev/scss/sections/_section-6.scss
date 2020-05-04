@@ -20,6 +20,10 @@
 #section-6-content{
     grid-area: section-6;
     text-align: justify;
+    img{
+        width: 100%;
+    }
+
 
     @include lg{
         display: grid;

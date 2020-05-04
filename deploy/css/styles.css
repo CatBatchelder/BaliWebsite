@@ -482,6 +482,8 @@ footer {
   #section-6 #section-6-content {
     grid-area: section-6;
     text-align: justify; }
+    #section-6 #section-6-content img {
+      width: 100%; }
     @media (min-width: 992px) {
       #section-6 #section-6-content {
         display: grid;
