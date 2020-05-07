@@ -19,103 +19,70 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/girl.jpg": {
-		"ft": 16384,
-		"iS": 36732,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/girl.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/girl_circle.png": {
-		"ft": 32768,
-		"iS": 143108,
-		"oA": 0,
-		"oAP": "/deploy/img/girl_circle.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/hotel.jpg": {
-		"ft": 16384,
-		"iS": 92094,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/hotel.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/logo.jpg": {
+	"/deploy/img/footer/logo.jpg": {
 		"ft": 16384,
 		"iS": 2057,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/logo.jpg",
+		"oAP": "/deploy/img/footer/logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/mountain.jpg": {
+	"/deploy/img/section-1/pink.jpg": {
 		"ft": 16384,
-		"iS": 71173,
+		"iS": 480928,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/mountain.jpg",
+		"oAP": "/deploy/img/section-1/pink.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/ocean.jpg": {
-		"ft": 16384,
-		"iS": 141104,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/ocean.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/pink.jpg": {
-		"ft": 16384,
-		"iS": 115998,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/pink.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/sign.jpg": {
+	"/deploy/img/section-2/sign.jpg": {
 		"ft": 16384,
 		"iS": 122245,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/sign.jpg",
+		"oAP": "/deploy/img/section-2/sign.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/temple.jpg": {
+	"/deploy/img/section-3/ocean.jpeg": {
 		"ft": 16384,
-		"iS": 121362,
+		"iS": 279659,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/temple.jpg",
+		"oAP": "/deploy/img/section-3/ocean.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/ocean.jpg": {
+		"ft": 16384,
+		"iS": 141104,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/ocean.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/girl_circle.png": {
+		"ft": 32768,
+		"iS": 143108,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/girl_circle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {

@@ -6,9 +6,11 @@
     display: grid;
     grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-6 .";
+    margin: 40px 0 40px;
 
     @include md{
         grid-template-columns: 15% auto 15%;
+        margin: 50px 0 50px;
     }
 
     @include lg{
