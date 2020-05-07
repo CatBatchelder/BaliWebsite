@@ -62,6 +62,12 @@
                     @include md{
                         margin-bottom: 0;
                     }
+
+                    hr{
+                        height: 4px;
+                        background-color: $blue;
+                        border: none;
+                    }
                 }
          }
 }

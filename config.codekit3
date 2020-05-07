@@ -19,15 +19,15 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/footer/logo.jpg": {
-		"ft": 16384,
-		"iS": 2057,
-		"jF": 0,
+	"/deploy/img/footer/logo.png": {
+		"ft": 32768,
+		"iS": 767206,
 		"oA": 0,
-		"oAP": "/deploy/img/footer/logo.jpg",
+		"oAP": "/deploy/img/footer/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/section-1/pink.jpg": {
@@ -69,6 +69,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-3/ocean.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/hotel.jpg": {
+		"ft": 16384,
+		"iS": 400031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/hotel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/mountain.jpg": {
+		"ft": 16384,
+		"iS": 2163678,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/mountain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/temple.jpg": {
+		"ft": 16384,
+		"iS": 998114,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/temple.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

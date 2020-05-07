@@ -15,6 +15,14 @@
 
     #section-4-content{
         grid-area: section-4;
+
+        color: $blue;
+
+        hr{
+            height: 4px;
+            background-color: black;
+            border: none;
+        }
     }
 
 }

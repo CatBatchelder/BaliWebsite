@@ -6,6 +6,7 @@ footer{
     display: grid;
     grid-template-columns: 15px auto 15px;
     grid-template-areas: ". footer .";
+    background-color: $blue;
 
     #footer-content{
         grid-area: footer;

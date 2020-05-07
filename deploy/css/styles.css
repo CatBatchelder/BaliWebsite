@@ -355,7 +355,8 @@ textarea {
 footer {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". footer ."; }
+  grid-template-areas: ". footer .";
+  background-color: #0088AD; }
   footer #footer-content {
     grid-area: footer;
     text-align: end; }
@@ -427,6 +428,11 @@ footer {
     @media (min-width: 768px) {
       #section-2 #section-2-big #section-2-content {
         margin-bottom: 0; } }
+    #section-2 #section-2-big #section-2-content hr {
+      height: 4px;
+      background-color: #0088AD;
+      border: none; }
+
 /* =============
     Section-3
 ============= */
@@ -457,7 +463,12 @@ footer {
     #section-4 {
       grid-template-columns: 10% auto 10%; } }
   #section-4 #section-4-content {
-    grid-area: section-4; }
+    grid-area: section-4;
+    color: #0088AD; }
+    #section-4 #section-4-content hr {
+      height: 4px;
+      background-color: black;
+      border: none; }
 
 /* =============
     Section-5
@@ -513,28 +524,23 @@ footer {
     #section-6 {
       grid-template-columns: 15% auto 15%;
       margin: 50px 0 50px; } }
-  @media (min-width: 992px) {
-    #section-6 {
-      grid-template-columns: 15px auto 50px;
-      grid-template-areas: ". section-6 ."; } }
   #section-6 #section-6-content {
     grid-area: section-6;
     text-align: justify; }
     #section-6 #section-6-content img {
       width: 100%; }
+      @media (min-width: 992px) {
+        #section-6 #section-6-content img {
+          width: auto; } }
     @media (min-width: 992px) {
       #section-6 #section-6-content {
-        display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas: "img ." "img text" "img ."; } }
+        display: flex;
+        justify-content: space-evenly; } }
   @media (min-width: 768px) {
     #section-6 #section-6-img {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%; } }
-  @media (min-width: 992px) {
-    #section-6 #section-6-img {
-      grid-area: img; } }
   #section-6 #section-6-text {
     grid-area: text; }

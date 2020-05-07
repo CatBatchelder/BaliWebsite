@@ -14,8 +14,11 @@
     }
 
     @include lg{
-        grid-template-columns: 15px auto 50px;
-        grid-template-areas: ". section-6 .";
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: space-evenly;
+        // grid-template-columns: 15px auto 50px;
+        // grid-template-areas: ". section-6 .";
     }
     
 
@@ -24,16 +27,22 @@
     text-align: justify;
     img{
         width: 100%;
+
+        @include lg{
+            width: auto;
+        }
     }
 
 
     @include lg{
-        display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas: 
-        "img ."
-        "img text"
-        "img .";
+        display: flex;
+        justify-content: space-evenly;
+    //     display: grid;
+    //     grid-template-columns: 50% auto;
+    //     grid-template-areas: 
+    //     "img ."
+    //     "img text"
+    //     "img .";
     }
 }
 
@@ -47,7 +56,8 @@
     }
 
     @include lg{
-        grid-area: img;
+        // display: inline;
+        // grid-area: img;
     }
   }
 
