@@ -18,6 +18,21 @@
 
         color: $blue;
 
+        h1{
+            font-size: rem-calc(26);
+            line-height: rem-calc(32);
+
+            @include md{
+                font-size: rem-calc(35);
+                line-height: rem-calc(50);
+            }
+
+            @include lg{
+                font-size: rem-calc(52);
+                line-height: rem-calc(62);
+            }
+        }
+
         hr{
             height: 4px;
             background-color: black;

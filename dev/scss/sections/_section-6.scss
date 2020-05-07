@@ -55,6 +55,11 @@
           grid-template-columns: 125px auto 50px;
           grid-template-areas: ". lgtext .";
       }
+      p{
+        font-size: rem-calc(18);
+        line-height: rem-calc(30);
+      }
+
   }
 
   #section-6-bigtext{

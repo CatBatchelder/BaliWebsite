@@ -30,6 +30,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/footer/logo2.png": {
+		"ft": 32768,
+		"iS": 2239,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/logo2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-1/pink.jpg": {
 		"ft": 16384,
 		"iS": 480928,

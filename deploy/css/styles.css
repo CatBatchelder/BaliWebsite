@@ -325,6 +325,12 @@ ul {
 /* =============
     Typography
 ============= */
+body {
+  font-family: 'Noto Serif', serif; }
+
+h1 {
+  font-family: 'Nunito', sans-serif; }
+
 /* =============
     Buttons
 ============= */
@@ -356,18 +362,29 @@ footer {
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". footer .";
-  background-color: #0088AD; }
+  background-color: #0088AD;
+  width: 100%;
+  height: 60px; }
   footer #footer-content {
     grid-area: footer;
-    text-align: end; }
-    footer #footer-content img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 15%; }
-      @media (min-width: 768px) {
-        footer #footer-content img {
-          width: 5%; } }
+    display: grid;
+    grid-template-columns: 42% 16% 33% 10%;
+    grid-template-areas: ". img . text";
+    position: relative; }
+    footer #footer-content #footer-image {
+      background-image: url("../img/footer/logo2.png");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      grid-area: img; }
+    footer #footer-content #footer-text {
+      grid-area: text;
+      color: white;
+      font-size: 0.8125rem;
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+
 /* =============
     Section-1
 ============= */
@@ -424,7 +441,21 @@ footer {
         grid-area: section-2-container; } }
   #section-2 #section-2-big #section-2-content {
     grid-area: section-2-content;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #section-2 #section-2-big #section-2-content {
+        text-align: left; } }
+    #section-2 #section-2-big #section-2-content h1 {
+      font-size: 1.5625rem;
+      line-height: 1.75rem; }
+      @media (min-width: 768px) {
+        #section-2 #section-2-big #section-2-content h1 {
+          font-size: 2.1875rem;
+          line-height: 2.1875rem; } }
+    #section-2 #section-2-big #section-2-content h3 {
+      font-size: 1rem;
+      line-height: 1.5625rem; }
     @media (min-width: 768px) {
       #section-2 #section-2-big #section-2-content {
         margin-bottom: 0; } }
@@ -465,6 +496,17 @@ footer {
   #section-4 #section-4-content {
     grid-area: section-4;
     color: #0088AD; }
+    #section-4 #section-4-content h1 {
+      font-size: 1.625rem;
+      line-height: 2rem; }
+      @media (min-width: 768px) {
+        #section-4 #section-4-content h1 {
+          font-size: 2.1875rem;
+          line-height: 3.125rem; } }
+      @media (min-width: 992px) {
+        #section-4 #section-4-content h1 {
+          font-size: 3.25rem;
+          line-height: 3.875rem; } }
     #section-4 #section-4-content hr {
       height: 4px;
       background-color: black;
@@ -553,5 +595,8 @@ footer {
         display: grid;
         grid-template-columns: 125px auto 50px;
         grid-template-areas: ". lgtext ."; } }
+    #section-6 #section-6-text p {
+      font-size: 1.125rem;
+      line-height: 1.875rem; }
   #section-6 #section-6-bigtext {
     grid-area: lgtext; }
