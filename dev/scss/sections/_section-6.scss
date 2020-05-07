@@ -14,11 +14,7 @@
     }
 
     @include lg{
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: space-evenly;
-        // grid-template-columns: 15px auto 50px;
-        // grid-template-areas: ". section-6 .";
+        grid-template-columns: 15px auto 50px;
     }
     
 
@@ -36,14 +32,9 @@
 
     @include lg{
         display: flex;
-        justify-content: space-evenly;
-    //     display: grid;
-    //     grid-template-columns: 50% auto;
-    //     grid-template-areas: 
-    //     "img ."
-    //     "img text"
-    //     "img .";
-    }
+        justify-content: flex-start;
+        align-items: center;
+}
 }
 
 #section-6-img {
@@ -54,15 +45,20 @@
         margin-right: auto;
         width: 50%;
     }
-
-    @include lg{
-        // display: inline;
-        // grid-area: img;
-    }
   }
 
   #section-6-text{
       grid-area: text;
+
+      @include lg{
+          display: grid;
+          grid-template-columns: 125px auto 50px;
+          grid-template-areas: ". lgtext .";
+      }
+  }
+
+  #section-6-bigtext{
+      grid-area: lgtext;
   }
 
 }
