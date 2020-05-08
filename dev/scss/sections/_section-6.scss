@@ -16,17 +16,18 @@
     @include lg{
         grid-template-columns: 15px auto 50px;
     }
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
     
 
 #section-6-content{
     grid-area: section-6;
     text-align: justify;
     img{
-        width: 100%;
-
-        @include lg{
-            width: auto;
-        }
+        display: block;
+        margin: auto;
     }
 
 
@@ -36,16 +37,6 @@
         align-items: center;
 }
 }
-
-#section-6-img {
-
-    @include md{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-  }
 
   #section-6-text{
       grid-area: text;
