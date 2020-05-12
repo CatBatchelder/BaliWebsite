@@ -4,16 +4,16 @@
 
 header {
     background-color: $blue;
+    font-family: 'Nunito', sans-serif;
+    font-size: rem-calc(25);
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    font-family: 'Nunito', sans-serif;
-    font-size: rem-calc(25);
 
     >div {
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
             "logo burger"
             "navi navi";
         grid-template-columns: 80% auto;
@@ -23,13 +23,13 @@ header {
             grid-template-columns: 20% auto;
         }
 
-        #logo-container{
+        #logo-container {
             grid-area: logo;
             padding: 20px;
 
-            @include lg{
-                display: flex;
+            @include lg {
                 align-items: center;
+                display: flex;
             }
         }
 

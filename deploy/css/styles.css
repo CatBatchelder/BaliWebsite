@@ -384,12 +384,12 @@ textarea {
 ============= */
 header {
   background-color: #0088AD;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5625rem;
   left: 0;
   position: fixed;
   top: 0;
-  width: 100%;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.5625rem; }
+  width: 100%; }
   header > div {
     display: grid;
     grid-template-areas: "logo burger" "navi navi";
@@ -403,8 +403,8 @@ header {
       padding: 20px; }
       @media (min-width: 992px) {
         header > div #logo-container {
-          display: flex;
-          align-items: center; } }
+          align-items: center;
+          display: flex; } }
     header > div #burger-container {
       align-items: center;
       display: flex;
