@@ -388,18 +388,23 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  color: white; }
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5625rem; }
   header > div {
     display: grid;
     grid-template-areas: "logo burger" "navi navi";
     grid-template-columns: 80% auto; }
     @media (min-width: 992px) {
       header > div {
-        grid-template-areas: "logo nav";
+        grid-template-areas: "logo navi";
         grid-template-columns: 20% auto; } }
     header > div #logo-container {
       grid-area: logo;
       padding: 20px; }
+      @media (min-width: 992px) {
+        header > div #logo-container {
+          display: flex;
+          align-items: center; } }
     header > div #burger-container {
       align-items: center;
       display: flex;
@@ -415,11 +420,12 @@ header {
       background-color: #fff;
       display: none;
       grid-area: navi;
-      padding: 20px; }
+      padding: 0 20px 0; }
       @media (min-width: 992px) {
         header > div #nav-container {
           background-color: #0088AD;
-          display: block !important; } }
+          display: block !important;
+          padding: 20px; } }
 /* =============
     Footer
 ============= */
